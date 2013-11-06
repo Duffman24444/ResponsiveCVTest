@@ -1,0 +1,98 @@
+#wrapper
+{
+background:red;
+}
+
+
+
+
+
+
+@media(max-width:620px)
+{
+
+	body
+	{margin:0px;
+	padding:0px;
+	color:white;
+	}
+	img
+	{
+	padding:2px;
+	}
+	#wrapper
+	{margin: 0 auto;
+	width:610px;
+	}
+	#main
+	{
+	width:100%;
+	height:400px;
+	background:#0772a1;
+	text-align:center;
+	}
+	#pic
+	{
+	height:250px;
+	width:320px;
+	}
+	#button, #button2, #button3, #button4, #button5, #button6, #button7
+	{height:150px;
+	width:610px;
+	background:#024a68;
+	border: 2px solid grey;
+	color:white;
+	}
+
+	#drop, #drop3
+	{display:none;
+	width:606px;
+	height:225px;
+	background:#0772a1;
+	border: 2px solid grey;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	}
+	#drop2
+	{display:none;
+	width:606px;
+	height:440px;
+	background:#0772a1;
+	border: 2px solid grey;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	}
+	#drop4
+	{display:none;
+	width:606px;
+	height:505px;
+	background:#0772a1;
+	border: 2px solid grey;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	}
+	#drop5
+	{display:none;
+	width:606px;
+	height:335px;
+	background:#0772a1;
+	border: 2px solid grey;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	}
+	#drop6
+	{display:none;
+	width:606px;
+	height:50px;
+	background:#0772a1;
+	border: 2px solid grey;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	}
+
+}
