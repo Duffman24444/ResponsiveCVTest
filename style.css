@@ -11,7 +11,8 @@ and (min-width:320px)
 {
 
 	body
-	{margin:0px;
+	{
+	margin:0px;
 	padding:0px;
 	color:white;
 	font-family:arial
@@ -23,7 +24,7 @@ and (min-width:320px)
 	}
 	#wrapper
 	{margin: 0 auto;
-	width:460px;
+	width:400px;
 	}
 	#main
 	{
@@ -38,7 +39,8 @@ and (min-width:320px)
 	width:320px;
 	}
 	#button, #button2, #button3, #button4, #button5, #button6, #button7
-	{height:150px;
+	{
+	height:150px;
 	width:100%;
 	background:#024a68;
 	border: 2px solid grey;
@@ -46,9 +48,10 @@ and (min-width:320px)
 	}
 
 	#drop
-	{display:none;
+	{
+	display:none;
 	width:99%;
-	height:310px;
+	height:330px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -67,9 +70,10 @@ and (min-width:320px)
 	padding:0px;
 	}
 	#drop2
-	{display:none;
+	{
+	display:none;
 	width:99%;
-	height:440px;
+	height:435px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -77,9 +81,10 @@ and (min-width:320px)
 	padding:0px;
 	}
 	#drop4
-	{display:none;
+	{
+	display:none;
 	width:99%;
-	height:605px;
+	height:625px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -87,7 +92,8 @@ and (min-width:320px)
 	padding:0px;
 	}
 	#drop5
-	{display:none;
+	{
+	display:none;
 	width:99%;
 	height:440px;
 	background:#0772a1;
@@ -97,7 +103,8 @@ and (min-width:320px)
 	padding:0px;
 	}
 	#drop6
-	{display:none;
+	{
+	display:none;
 	width:99%;
 	height:50px;
 	background:#0772a1;
