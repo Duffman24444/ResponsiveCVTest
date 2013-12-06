@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<title>Stephen Duffy Curriculum Vitae</title>
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="toggle.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-		
+		<script src="slider.js"></script>
 	</head>
 		
 	<body>
 		<div id="wrapper">
 			<div id="main">
-				<img id="pic" src="pic.jpg"/>
+				<div id="pic"></div>
 				<p>63 Huband Road, Bluebell, D12</p>
 				<p>4507186</p>
 				<p>stephenmartinduffy@gmail.com</p>
@@ -18,7 +18,8 @@
 			</div>
 			<button id="button"><h2>Personal Details</h2></button>
 			
-			<div id="drop"><ul>
+			<div id="drop">
+				<ul>
 					<li>Highly cooperative and motivated student with 3 years experience in the construction trade.</br>Quick to learn new skills; successful in both team and self-directed settings; proficient in</br>Microsoft Windows systems and tools</li>
 					<li>Student of Web Technologies seeking a position in (IT)</li>
 					<li>Keen interest in Web Design and Software Programming. I am also interested in computer</br>gaming sites such as IGN.com as I am an avid computer gamer.</li>
@@ -32,11 +33,11 @@
 			
 			<div id="drop2">
 				<strong>National College of Ireland:</strong>
-				<ul>
-					<li>Certificate in Web Development</li>
-				</ul>
+				
+					<p>Certificate in Web Development</p>
+				
 				<strong>Course Content:</strong>
-				<p><strong>Languages: </strong>HTML, XHTML, CSS, JavaScript</p>
+				<p><strong>Languages: </strong>HTML5, XHTML, CSS, JavaScript</p>
 				<p><strong>Technologies: </strong></p>
 				<p><strong>Operating Systems: </strong>Windows 7, XP, Vista, 8, 8.1</p>
 				<p><strong>Web Development: </strong>HTML, XHTML, CSS, JavaScript</p>
@@ -124,7 +125,14 @@
 	</body>
 
 	
-<script>	
+<script>
+			   $("#pic").backstretch(
+				   [
+      "pic.jpg"
+    , "pic2.jpg"
+    , "pic3.jpg"
+  ], {duration: 3000, fade: 750});	
+  
 	$( "#button" ).click(function() {
   $( "#drop" ).slideToggle( "slow", function() {
     

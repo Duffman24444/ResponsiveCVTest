@@ -1,11 +1,11 @@
 
 
 
+/*-- drop 1, 25px and drop 2, -5px, drop 4, 15px */
 
 
 
-
-@media(max-width:480px)
+@media(max-width:650px)
 and (min-width:320px)
 
 {
@@ -15,16 +15,12 @@ and (min-width:320px)
 	margin:0px;
 	padding:0px;
 	color:white;
-	font-family:arial
-	}
-	img
-	{
-	border:2px solid black;
-	margin:5px;
+	font-family:arial;
+	background-color:#225e79;
 	}
 	#wrapper
 	{margin: 0 auto;
-	width:400px;
+	width:360px;
 	}
 	#main
 	{
@@ -37,6 +33,8 @@ and (min-width:320px)
 	{
 	height:250px;
 	width:320px;
+	border:2px solid black;
+	margin:0 auto;
 	}
 	#button, #button2, #button3, #button4, #button5, #button6, #button7
 	{
@@ -51,7 +49,7 @@ and (min-width:320px)
 	{
 	display:none;
 	width:99%;
-	height:330px;
+	height:405px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -62,7 +60,7 @@ and (min-width:320px)
 	{
 	display:none;
 	width:99%;
-	height:235px;
+	height:255px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -73,7 +71,7 @@ and (min-width:320px)
 	{
 	display:none;
 	width:99%;
-	height:435px;
+	height:470px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -84,7 +82,7 @@ and (min-width:320px)
 	{
 	display:none;
 	width:99%;
-	height:625px;
+	height:700px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
@@ -95,7 +93,7 @@ and (min-width:320px)
 	{
 	display:none;
 	width:99%;
-	height:440px;
+	height:477px;
 	background:#0772a1;
 	border: 2px solid grey;
 	text-align:center;
